@@ -125,12 +125,12 @@ const modalData = {
 const quiz = {
   q: "Scenario: You're negotiating a services contract. Your team has already secured a strong alternative offer from a competing vendor at $110,000, and you're now discussing terms with your preferred vendor. Partway through the conversation, your preferred vendor pushes hard on a support-rate clause, and your team, feeling pressure to keep the relationship warm, starts drifting toward accepting terms that would put the total contract value at $118,000. What should guide your team's decision at this point?",
   answers: [
+    "Compare the $118,000 package with the $110,000 BATNA and reject any worse deal",
     "Accept the higher terms, since maintaining a good relationship with the preferred vendor matters more than the numbers",
     "Walk away immediately, since any deviation from the original target number means the negotiation has failed",
-    "Compare the $118,000 total package against your $110,000 BATNA, and decline any terms that leave you worse off than your best alternative",
     "Reveal your BATNA to the vendor immediately to strengthen your negotiating position",
   ],
-  correct: 2,
+  correct: 0,
   good: "Correct! This is exactly what BATNA is built for — a clear, pre-established threshold that keeps in-room pressure from talking your team into a worse outcome than what's already secured elsewhere. If $118,000 in total value doesn't outperform the $110,000 alternative, accepting it would be a strategic mistake regardless of how the conversation feels in the moment.",
   bad: "Reconsider — separating people from the problem preserves the relationship without abandoning your position; BATNA isn't a rigid ceiling to defend no matter what; and revealing your BATNA early hands the other party exactly the information they need to negotiate right up to that number.",
 };
